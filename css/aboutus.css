@@ -1,0 +1,106 @@
+@font-face {
+    font-family: logofont;
+    src: url('../assits/fonts/ArmonelaBlack.ttf');
+}
+
+body {
+    background-color: #FFFFE9;
+    background-image: url(../assits/vertical-shade-red-to-orange.png);
+    background-size: cover;
+}
+
+
+
+/* Header */
+.manu {
+    /* background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
+
+
+    #signin,
+    #signup,
+    #aboutus,
+    #contactus {
+        font-family: 'Nunito', sans-serif;
+        color: #ffffff;
+        font-size: 2vw;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 7px;
+        margin-left: 1.5%;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+}
+
+#homelogo {
+    font-family: logofont;
+    color: #ffffff;
+    font-size: 6vw;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+#homelogo:hover {
+    transform: scale(1.1);
+}
+
+#signin:hover,
+#signup:hover,
+#aboutus:hover,
+#contactus:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+.allfieldset{
+    background-color: #FFFFE9;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 2vw;
+  
+}
+h3{
+    background-color: #FFFFE9;
+    border-radius: 1vw;
+    border: 1px solid rgb(117, 116, 116);
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+footer {
+    /* background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    clear: both;
+    border-radius: 10px;
+    text-align: center;
+
+    .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    #social-media1 {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    #social-media {
+        display: inline-flex;
+        flex-direction: row;
+    }
+}

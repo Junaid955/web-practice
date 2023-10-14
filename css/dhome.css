@@ -1,0 +1,193 @@
+@font-face {
+    font-family: logofont;
+    src: url('../assits/fonts/ArmonelaBlack.ttf');
+}
+
+body {
+    background-color: #FFFFE9;
+}
+
+
+
+/* Header */
+.manu {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
+
+
+    #signin,
+    #signup,
+    #aboutus,
+    #contactus {
+        font-family: 'Nunito', sans-serif;
+        color: #ffffff;
+        font-size: 2vw;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 7px;
+        margin-left: 1.5%;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+}
+
+#homelogo {
+    font-family: logofont;
+    color: #ffffff;
+    font-size: 6vw;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+#homelogo:hover {
+    transform: scale(1.1);
+}
+
+#signin:hover,
+#signup:hover,
+#aboutus:hover,
+#contactus:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* bannaer */
+
+#banner {
+
+    #bannerimg {
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+
+    }
+}
+
+#precardtext {
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+/* stylebyselectingallcards */
+#includecards {
+    text-align: center;
+}
+
+
+#cardbody {
+    margin: auto;
+}
+
+.offer1 {
+    background-color: #f5f5dc;
+    width: 100%;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 8px 8px 10px rgba(80, 80, 80, 0.548);
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin: 12px;
+
+    .price {
+        font-size: 2.5vw;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        font-weight: 900;
+        text-shadow: 2px 2px 3px #050505;
+        background-image: url(../assits/shade-red-to-orange.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px inset;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .adtext {
+        font-size: 1.5vw;
+        font-weight: 900;
+        font-family: 'Nunito', sans-serif;
+        text-shadow: 2px 2px 4px #00000080;
+        background-image: url(../assits/shade-red-to-orange.png);
+        background-size: cover;
+        border: 2px inset;
+        border-radius: 10px;
+
+
+
+
+    }
+
+    .adpicture {
+        border-radius: 7px;
+        display: inline;
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+.offer1 a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.offer1:hover {
+    transform: scale(1.02);
+}
+
+#firstrow,
+#secondrow,
+#thirdrow {
+    display: inline-flex;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+footer {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    border-radius: 10px;
+    text-align: center;
+
+    .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    #social-media1 {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    #social-media {
+        display: inline-flex;
+        flex-direction: row;
+    }
+}

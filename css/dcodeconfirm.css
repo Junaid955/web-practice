@@ -1,0 +1,175 @@
+@font-face {
+    font-family: logofont;
+    src: url('../assits/fonts/ArmonelaBlack.ttf');
+}
+
+body {
+    background-color: #FFFFE9;
+    background-image: url(../assits/mobile-tabok.png);
+    background-size: 52.5%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center;
+    font-family: 'Nunito', sans-serif;
+
+
+
+}
+
+
+
+/* Header */
+.manu {
+    background-image: url(../assits/shade-red-to-orange.png);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
+
+    #signin,
+    #signup,
+    #aboutus,
+    #contactus {
+
+        color: #ffffff;
+        font-size: 2vw;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 7px;
+        margin-left: 1.5%;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+}
+
+#homelogo {
+    font-family: logofont;
+    color: #ffffff;
+    font-size: 6vw;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+#homelogo:hover {
+    transform: scale(1.1);
+}
+
+#signin:hover,
+#signup:hover,
+#aboutus:hover,
+#contactus:hover {
+    transform: scale(1.1);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+#maindiv1 {
+    /*  border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5%;
+    padding-right: 6%;
+
+    #fieldset1 {
+        width: 40vw;
+        height: 29vw;
+        background-image: url(../assits/vertical-shade-red-to-orange.png);
+        background-size: 100%;
+        border-radius: 4%;
+        border-top-left-radius: 50%;
+        border: transparent;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.562);
+        display: inline-block;
+    }
+
+    #form1 {
+        /* border: 1px solid black; */
+        text-align: center;
+        margin: 10%;
+
+        #heading {
+            font-size: 3vw;
+            font-family: 'Nunito', sans-serif;
+            color: white;
+        }
+
+        .upinput {
+            display: inline;
+            border: 4px solid #f02a10;
+            border-radius: 10px;
+            height: 2vw;
+            outline: none;
+        }
+    }
+}
+
+.upinput {
+    background-color: rgb(250, 183, 157);
+}
+
+.upinput::-webkit-inner-spin-button,
+.upinput::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+
+}
+
+.upinput:focus {
+    background-color: rgb(247, 247, 247);
+}
+
+#forgotpassword {
+    text-decoration: none;
+    color: #ffc527;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+#confirmbtn {
+    /* width: 6vw;
+        height: 2vw; */
+    border: transparent;
+    border-radius: 10vw;
+    background-color: rgb(44, 43, 43);
+    font-family: Arial, sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    color: rgb(241, 191, 64);
+    /* padding: 1vw; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: inline-block;
+    transition: transform 0.2s ease;
+
+}
+
+#confirmbtn:hover {
+    transform: scale(1.06);
+}
+
+#resendbtn,
+#line {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+#resendbtn:hover {
+    color: aqua;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+
+}

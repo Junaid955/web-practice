@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-pk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<head>
+    <title> Signin to your account</title>
+    <link href="../css/dSignup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assits/fonts/Blox2.ttf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<!-- ------------------------------------------------------------------------------------------------------------? -->
+
+<body>
+    <div>
+        <header class="manu">
+            <div id="manutextdiv">
+                <a href="../home.html" id="homelogo">SHOPITNOW</a>
+                <a href="./signin.html" id="signin">SignIN</a>
+                <!-- <a href="./login/signup.html" id="signup">SignUP</a> -->
+                <a href="../aboutus.html" id="aboutus">About us</a>
+                <a href="../contactus.html" id="contactus">Contact us</a>
+            </div>
+        </header>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------? -->
+    <div id="maindiv1">
+        <fieldset id="fieldset1">
+            <h1 style="text-align: center; font-size: 3vw;">Sign Up</h1>
+            <form id="form1">
+                <label for="upinput" class="titles"> First Name:</label>
+                <input type="text" class="upinput" placeholder="first name">
+                <label for="upinput" class="titles" id="second2">Last Name:</label>
+                <input type="text" class="upinput" placeholder="last name"><br><br>
+                <label for="upinput" class="titles">Email Address:</label>
+                <input type="email" class="upinput" placeholder="email"><br><br>
+                <label for="upinput" class="titles">Password:</label>
+                <input type="password" class="upinput" placeholder="password">
+                <label for="upinput" class="titles" id="second1">Confirm Password:</label>
+                <input type="password" class="upinput" placeholder="confirm password"><br><br>
+                <Label class="titles">Select Your Gender:</Label>
+                <select id="gender">
+                    <option disabled selected> Choose Your Gender </option>
+                    <option>MALE</option>
+                    <option>FEMALE</option>
+                    <option>RATHER NO SAY</option>
+                </select><br><br>
+                <label for="DOB"> Date Of Birth:</label>
+                <input type="date" id="DOB"><br><br>
+                <Label id="contry">Contry</Label>
+                <select id="contry1">
+                    <option selected disabled>Select Your Contry</option>
+                    <option> Pakistan</option>
+                    <option>UAE</option>
+                    <option>Saudi Arab</option>
+                </select></button><br><br>
+                <details id="terms">
+                    <summary> Read ShopItNow's term & services</summary>
+                    <iframe src="../terms.html" id="iframe1"></iframe><br>
+                </details>
+                <input type="checkbox" id="agree"><label for="agree"> Agree to ShopItNow's term &
+                    services.</label><br>
+                <div id="signupdiv"><a href="./codeconfirm.html"><button type="button"
+                            id="signupbtn">SIGNUP</button></a><br>
+                    <p style="font-size: medium;">Already have an account
+                        <a href="./signin.html" id="login1" style="color: #ffc527;"> LOGIN NOW</a>
+                    </p>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <footer>
+        <div id="copyright">
+            <p>&copy; 2023 ShopitNow. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

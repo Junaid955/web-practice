@@ -1,0 +1,147 @@
+@font-face {
+    font-family: logofont;
+    src: url('../assits/fonts/ArmonelaBlack.ttf');
+}
+
+body {
+    background-color: #FFFFE9;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Header */
+.manu {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+    clear: both;
+    #signin,
+    #signup,
+    #aboutus,
+    #contactus {
+        color: #ffffff;
+        font-size: 2vw;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 7px;
+        margin-left: 1.5%;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+}
+
+#homelogo {
+    font-family: logofont;
+    color: #ffffff;
+    font-size: 6vw;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+#homelogo:hover {
+    transform: scale(1.1);
+}
+
+#signin:hover,
+#signup:hover,
+#aboutus:hover,
+#contactus:hover {
+    transform: scale(1.1);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+
+#maindiv1 {
+    padding: 5vw 11vw 1.8vw 11vw;
+    color: white;
+}
+
+#fieldset1 {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-size: cover;
+    border-radius: 2vw;
+    border: transparent;
+    box-shadow: 0px 0px 20px rgb(82, 81, 81);
+    height: auto;
+    padding: 1vw 5vw 1vw 5vw;
+}
+
+#form1 {
+    height: auto;
+    font-size: 2vw;
+    /* text-align: center; */
+}
+
+.upinput {
+    border: 4px solid #f02a10;
+    background-color: rgb(250, 183, 157);
+    border-radius: 10px;
+    height: 2vw;
+    width: 15vw;
+    outline: none;
+}
+
+.upinput:focus {
+    background-color: white;
+}
+
+#titles {
+    text-align: left;
+}
+
+#second1,
+#second2 {
+    margin-left: 3vw;
+}
+
+#gender,
+#DOB,
+#contry1 {
+    border: 4px solid #f02a10;
+    background-color: #fab79d9a;
+    border-radius: 10px;
+    height: 2vw;
+    outline: none;
+}
+
+
+
+
+#signupbtn {
+    border: transparent;
+    border-radius: 10vw;
+    background-color: rgb(44, 43, 43);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    color: goldenrod;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+#signupbtn:hover {
+    transform: scale(1.06);
+}
+
+#signupdiv {
+    text-align: center;
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+    background-image: url(../assits/shade-red-to-orange.png);
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+
+}
